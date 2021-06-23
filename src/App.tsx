@@ -1,19 +1,7 @@
-import { Button } from './Button';
-
+import Router from './router';
 
 function App() {
-  return (
-    <div>
-      <h1>Alguma coisa</h1>
-     
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
